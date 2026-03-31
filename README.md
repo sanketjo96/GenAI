@@ -6,7 +6,7 @@ Small playground repo to learn GenAI concepts with the Vercel AI SDK + OpenAI (a
 
 - Prompting basics in `1. Prompt/`
 - Basic agent flow in `2. Agent/`
-- SDK examples in `sdk/`:
+- SDK examples in `3. AI SDK/`:
   - `1. generateText.js` - simple text generation
   - `2. streamText.js` - streaming output
   - `3. modelswap.js` - swap models/providers
@@ -24,16 +24,16 @@ Small playground repo to learn GenAI concepts with the Vercel AI SDK + OpenAI (a
 2. Create `.env` in project root:
    - `OPEN_API_KEY=your_api_key_here`
 3. Run any example:
-   - `node ".\\sdk\\1. generateText.js"`
-   - `node ".\\sdk\\5. structureOutput.js"`
-   - `node ".\\sdk\\11. agent.js"`
+   - `node ".\\3. AI SDK\\1. generateText.js"`
+   - `node ".\\3. AI SDK\\5. structureOutput.js"`
+   - `node ".\\3. AI SDK\\11. agent.js"`
 
 ## Chat API demo
 
 - Start server:
-  - `node ".\\sdk\\4. history.js"`
+  - `node ".\\3. AI SDK\\4. history.js"`
 - In another terminal run client:
-  - `node ".\\sdk\\client\\test.js"`
+  - `node ".\\3. AI SDK\\client\\test.js"`
 
 ---
 This is a learning repo, so scripts are intentionally simple and focused on one concept at a time.
