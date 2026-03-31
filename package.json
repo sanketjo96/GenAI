@@ -1,8 +1,13 @@
 {
   "type": "module",
   "dependencies": {
+    "@ai-sdk/google": "^3.0.54",
+    "@ai-sdk/openai": "^3.0.48",
+    "ai": "^6.0.141",
     "dotenv": "^17.3.1",
+    "fastify": "^5.8.4",
     "openai": "^6.32.0",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "zod": "^4.3.6"
   }
 }
